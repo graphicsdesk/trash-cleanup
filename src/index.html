@@ -57,9 +57,19 @@
           </case>
           <case n="'graphic'">
             <div class="graphic">
-              <if condition="item.value.asset === 'graphic-name.html'">
-                <include src="graphic-name.html"></include>
+              <if condition="item.value.asset === 'trash.html'">
+                <include src="trash.html"></include>
               </if>
+              <if condition="item.value.asset === 'dwsidewalk.html'">
+                <include src="dwsidewalk.html"></include>
+              </if>
+              <if condition="item.value.asset === 'dwstreet.html'">
+                <include src="dwstreet.html"></include>
+              </if>
+              <if condition="item.value.asset === 'dw311.html'">
+                <include src="dw311.html"></include>
+              </if>
+
             </div>
           </case>
         </switch>
